@@ -3,7 +3,6 @@ from hashlib import sha512
 import xlrd
 import xlwt
 import requests
-hbj
 file = load_workbook('entryData.xlsx')
 activeSheet = file['Data']
 for i in range(activeSheet.max_row):
